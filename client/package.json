@@ -4,10 +4,15 @@
   "description": "chat messenger client, built with react and graph ql",
   "main": "index.js",
   "scripts": {
-    "build-dev": "webpack -d --mode development",
-    "build-prod": "webpack -p --mode production",
-    "start": "webpack-dev-server --hot --mode development"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --color --progresss",
+    "build": "cross-env NODE_ENV=production webpack --color --progress",
+    "start": "serve dist"
   },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
   "author": "Devendra, Panna",
   "license": "ISC",
   "dependencies": {
@@ -18,14 +23,19 @@
     "@babel/core": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.7.7",
     "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
-    "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.1.0",
+    "cross-env": "^6.0.3",
     "html-webpack-plugin": "^4.3.0",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "@types/node": "^12.12.5",
+    "source-map-loader": "^0.2.4",
+    "serve": "^11.3.0",
+    "terser-webpack-plugin": "^2.3.2"
   }
 }

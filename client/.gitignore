@@ -1,6 +1,6 @@
 node_modules/
+dist/
+.vsocde/
 yarn.lock
 yarn-error.log
-.vsocde/
-build
-bundle.js
+
