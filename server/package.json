@@ -1,0 +1,11 @@
+{
+  "name": "chat-messenger-server",
+  "version": "1.0.0",
+  "description": "chat messenger server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devendra, Panna",
+  "license": "ISC"
+}
