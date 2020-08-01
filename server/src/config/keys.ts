@@ -1,0 +1,1 @@
+export default {mongoURI:'mongodb+srv://admin:demo@cluster0.qudqu.mongodb.net/sample_airbnb?retryWrites=true&w=majoritys'};
